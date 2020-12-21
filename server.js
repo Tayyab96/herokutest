@@ -9,6 +9,4 @@ app.get('/*', function(req, res){
     res.sendfile(path.join(__dirname + '/dist/herokutest/index.html'));
 
 });
-
-
 app.listen(process.env.PORT || 3000);
